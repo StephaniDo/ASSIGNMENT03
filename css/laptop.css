@@ -357,7 +357,7 @@ a:active {
 .avt-banner {
   position: absolute;
   display: inline-block;
-  bottom: -80px;
+  bottom: -50px;
   right: 50%;
   transform: translate(50%, -50%);
 }
