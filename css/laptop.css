@@ -21,7 +21,6 @@ body {
   padding: 30px 50px;
 }
 
-/* banner */
 .img-banner {
   height: 50%;
   background-position: center;
@@ -36,26 +35,9 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-100%, 30%);
-}
-/* .img-banner {
-  position: relative;
-  background-image: url("https://www.callcentrehelper.com/images/stories/2020/05/digital-transformation-butterfly-760.jpg");
-  width: 100%;
-  height: 600px;
-  background-size: cover;
-  filter: brightness(50%);
-  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  transform: translate(-50%, -250%);
 }
 
-.text-banner {
-  position: absolute;
-  top: 20%;
-  right: 39%;
-  font-size: 24px;
-  text-align: center;
-}
- */
 .text-banner h1 {
   text-transform: uppercase;
   color: #f8f9fa;
@@ -356,8 +338,10 @@ a:active {
 
 .avt-banner {
   position: absolute;
+  z-index: 4;
   display: inline-block;
-  bottom: -50px;
+  margin-top: -120px;
   right: 50%;
   transform: translate(50%, -50%);
 }
+
