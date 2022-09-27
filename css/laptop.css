@@ -22,11 +22,12 @@ body {
 }
 
 .img-banner {
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   position: relative;
+  background-image: url(../images/background1.jpg);
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  filter: brightness(50%);
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
